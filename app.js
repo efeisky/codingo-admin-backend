@@ -4,7 +4,7 @@ const app = express();
 const http = require('http');
 const server = http.createServer(app)
 
-const server_port = process.env.SERVER_PORT || 8020
+const server_port = process.env.SERVER_PORT || 8080
 
 require('./sql/db_connection').default
 require('./Routes/get_ip')(app);
