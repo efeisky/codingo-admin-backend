@@ -20,7 +20,7 @@ require('./Routes/lesson/question')(app);
 require('./Routes/lesson/information')(app);
 require('./Routes/secret_routes/admin/admin')(app);
 
-const server_port = process.env.SERVER_PORT || 8020;
+const server_port = process.env.SERVER_PORT || 8080;
 
 server.listen(server_port, () => {
     console.log(`Codingo Admin Server ${server_port} portu üzerinden çalışıyor..\nhttp://localhost:${server_port}/`);
