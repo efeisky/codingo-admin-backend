@@ -8,15 +8,12 @@ class LoginModel {
     get email() {
       return this._email;
     }
-  
     get password() {
       return this._password;
     }
-  
     get customKey() {
       return this._secretKey;
     }
-    
     get status() {
       return this._status;
     }

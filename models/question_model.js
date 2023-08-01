@@ -14,7 +14,6 @@ class QuestionModel {
         this.lesson_class = lesson_class;
         this.question_count = question_count;
     }
-
     toJson(){
         return {
             lesson_id : this.lesson_id,

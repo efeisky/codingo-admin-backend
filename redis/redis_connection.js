@@ -176,7 +176,6 @@ async function takePermanentToken(ip, token) {
         const isAvailable = await client.exists(ip);
         if (isAvailable) {
             const result = JSON.parse(await client.get(ip));
-    
             await client.disconnect();
     
             return {

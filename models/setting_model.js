@@ -11,7 +11,6 @@ class SettingModel {
             admin_phone_number,
             admin_status
         } = data;
-
         this.id = id;
         this.unique_id = unique_id;
         this.admin_level = admin_level;

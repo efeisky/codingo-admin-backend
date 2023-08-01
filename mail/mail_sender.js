@@ -13,7 +13,6 @@ module.exports.AdminLoginSecurity = async function (id, mail, ip,token) {
   },true,token)
 };
 
-
 async function sendMail(mailAdress, otp) {
   const transporter = mailer.createTransport({
     host: 'smtp.gmail.com',

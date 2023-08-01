@@ -15,7 +15,7 @@ class AccessModel {
         admin_level : this.accessLevel
       };
     }
-  }
+}
 
 module.exports = {
     AccessModel

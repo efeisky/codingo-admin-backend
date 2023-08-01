@@ -16,7 +16,6 @@ class ProfileReportModel {
       Object.defineProperty(this, "_isRead", { value: is_read == 1, writable: false });
       Object.defineProperty(this, "_date", { value: report_date, writable: false });
     }
-  
     get toJson() {
       return {
         reportId: this._reportId,
